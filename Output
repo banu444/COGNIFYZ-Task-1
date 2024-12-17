@@ -1,0 +1,30 @@
+Dataset Columns:
+ ['restaurant_id', 'restaurant_name', 'country_code', 'city', 'address', 'locality', 'locality_verbose', 'longitude', 'latitude', 'cuisines', 'average_cost_for_two', 'currency', 'has_table_booking', 'has_online_delivery', 'is_delivering_now', 'switch_to_order_menu', 'price_range', 'aggregate_rating', 'rating_color', 'rating_text', 'votes']
+
+Missing Values After Imputation:
+ restaurant_id           0
+restaurant_name         0
+country_code            0
+city                    0
+address                 0
+locality                0
+locality_verbose        0
+longitude               0
+latitude                0
+cuisines                0
+average_cost_for_two    0
+currency                0
+has_table_booking       0
+has_online_delivery     0
+is_delivering_now       0
+switch_to_order_menu    0
+price_range             0
+aggregate_rating        0
+rating_color            0
+rating_text             0
+votes                   0
+dtype: int64
+
+Model Performance:
+Mean Squared Error: 0.09
+R-squared: 0.96
